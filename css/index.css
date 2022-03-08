@@ -1,0 +1,48 @@
+/*Reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*Variáveis*/
+:root{
+    --cor1: #aaa;
+    --cor2: #2c2e43;
+    --cor3: #fff;
+    --cor4: #ffd523;
+}
+
+/*Corpo da página*/
+body{
+    background-color: var(--cor1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Caixa do rélogio*/
+.relogio{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Display do relógio*/
+.display{
+    background-color: var(--cor2);
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 10px;
+    color: var(--cor3);
+    font-size: 4rem;
+    font-weight: bold;
+    border: 10px solid var(--cor4);
+}
+
+/*Rodapé*/
+footer{
+    font-size: 2rem;
+    margin-top: 15px;
+}
